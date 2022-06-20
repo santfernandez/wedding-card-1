@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "../styles/VenueInfo.css";
-import RSVPModal from "../components/RSVPModal";
 
 const VenueInfo = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="venue-info">
       <div className="venue-info-row-a">
@@ -84,14 +82,6 @@ const VenueInfo = () => {
               </a>
             </button>
           </div>
-        </div>
-      </div>
-      <div className="venue-info-row-b">
-        <div className="rsvp">
-          <button type="button" onClick={() => setIsOpen(true)}>
-            Confirmar asistencia
-          </button>
-          <RSVPModal open={isOpen} onClose={() => setIsOpen(false)}></RSVPModal>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300;400;700&family=Galada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
 
 @media (min-width: 600px) {
     .party-info {
@@ -8,7 +9,7 @@
         background-size: 50vw;
         background-position: left;
         background-color: #FFE2CD;
-        font-family: 'Galada', cursive;
+        font-family: 'Denk One', sans-serif;
         min-height: 50vh;
         display: flex;
         flex-direction: column;
@@ -108,12 +109,12 @@
     }
 
     .party-info-title {
-        font-family: 'Galada', cursive;
+        font-family: 'Denk One', sans-serif;
         font-size: 2.5em;
         order: 1;
         color: #2A4671;
         margin: 0;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     .party-info-subtitle {
@@ -127,16 +128,12 @@
 
     .party-info-row-a {
         display: flex;
-        order: 2;
+        flex-flow: column;
+        order: 1;
+        align-items: center;
         justify-content: space-evenly;
         padding: 20px 25px;
-    }
-
-    .party-info-row-b {
-        display: flex;
-        order: 3;
-        justify-content: space-evenly;
-        padding: 20px 25px 40px 25px;
+        gap: 32px;
     }
 
     .party-info-button {
@@ -145,13 +142,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    .party-info-b>div>div {
-        display: flex;
-        width: 50vw;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+
 
     .party-info-button {
         background-color: #4E5975;

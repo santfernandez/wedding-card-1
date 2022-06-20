@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400;700&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+@media (min-width: 600px) {
+    .rsvp {
+        display: flex;
+        flex-flow: column;
+        order: 1;
+        padding-top: 100px;
+    }
+
+    .rsvp>button {
+        background-color: #f6ce97;
+        border-radius: 50px;
+        color: black;
+        padding: 0.5em 0.4em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.7em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 700;
+        width: 50vw;
+        font-weight: bold;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .rsvp {
+        background-color: #465E82;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+        color: #fff;
+        padding: 16px;
+        min-height: 300px;
+    }
+
+    .rsvp-title {
+        font-family: 'Denk One', sans-serif;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+
+    .rsvp-info {
+        font-family: 'Galada', cursive;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        margin: 0px;
+        padding-top: 8px;
+    }
+
+    .rsvp>button {
+        background-color: #fff;
+        border-radius: 50px;
+        color: #000;
+        padding: 0.5em 0.4em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.7em;
+        font-family: 'Encode Sans Condensed', sans-serif;
+        font-weight: 700;
+        max-width: 50vw;
+        border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 35px;
+        min-width: 50vw;
+    }
+
+    .venue-info-image>img {
+        height: auto;
+        max-width: 25vw;
+        padding-bottom: 30px;
+    }
+}

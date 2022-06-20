@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Encode+Sans+Condensed:wght@200;300;400;700&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
 
 @media (min-width: 600px) {
 
@@ -10,7 +11,7 @@
     }
 
     .instagram-section-hashtag {
-        font-family: 'Dela Gothic One', cursive;
+        font-family: 'Denk One', sans-serif;
         font-size: 3em;
     }
 
@@ -53,12 +54,20 @@
 
 @media (max-width: 600px) {
 
+    .instagram-section {
+        background-image: url("https://drive.google.com/uc?export=view&id=1JNTnRRrHIGtfIb0eXm_PvqJ9mJMRJS8c");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 32px 0px;
+    }
+
     .instagram-section-phrase>p {
         font-family: 'Galada', cursive;
         font-weight: bold;
-        font-size: 1.8em;
-        padding: 25px 40px 0 40px;
-        color: #2A4671;
+        font-size: 1.2em;
+        margin: 0px;
+        padding: 20px0px;
+        color: #000;
     }
 
     .instagram-section-image>img {
@@ -71,7 +80,7 @@
     }
 
     .instagram-section-hashtag {
-        font-family: 'Dela Gothic One', cursive;
+        font-family: 'Denk One', sans-serif;
         font-size: 2em;
     }
 
@@ -81,7 +90,7 @@
     }
 
     .instagram-section-button {
-        background-color: #f6ce97;
+        background-color: #4E5975;
         border-radius: 50px;
         color: black;
         padding: 0.5em 0.4em;

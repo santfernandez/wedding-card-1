@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+
+@media (min-width: 600px) {}
+
+@media (max-width: 600px) {
+    .about-us {
+        padding: 20px 0 20px 0;
+        background-color: #FFDFCD;
+    }
+
+    .about-us-title {
+        color: #2A4671;
+        font-family: 'Denk One', sans-serif;
+        font-size: 2em;
+        padding: 10px 0px 20px 16px;
+        text-align: left;
+    }
+
+    .about-us-images-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us-images-row-a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        order: 1;
+    }
+
+    .about-us-images-row-b {
+        display: flex;
+        flex-direction: row;
+        order: 1;
+        justify-content: space-evenly;
+    }
+
+    .about-us-image {
+        height: auto;
+        max-width: 45vw;
+        padding: 8px;
+    }
+}
