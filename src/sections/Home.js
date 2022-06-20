@@ -16,7 +16,7 @@ const Home = () => {
           <p className="middle-title">&</p>
           <h2>Solana</h2>
         </div>
-        <span className="home-date">07|05|22</span>
+        <span className="home-date">07-05-22</span>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const PartyInfo = () => {
       </div>
       <div className="party-info-b">
         <div className="party-info-row-a">
-          <div className="party-music">
+          <div className="party-items">
             <div className="party-info-image">
               <img
                 src={`http://drive.google.com/uc?export=view&id=10Fyq8FBVa7rYak24KaO9lnhS9SMHaXnt`}
@@ -34,7 +34,7 @@ const PartyInfo = () => {
               onClose={() => setMusicIsOpen(false)}
             ></MusicModal>
           </div>
-          <div className="party-dresscode">
+          <div className="party-items">
             <div className="party-info-image">
               <img
                 src={`http://drive.google.com/uc?export=view&id=1TuSl5w4aif3mHXJpLNTlJuoEAkxqSDuX`}
@@ -56,7 +56,7 @@ const PartyInfo = () => {
               <h2>Elegante</h2>
             </DressCodeModal>
           </div>
-          <div className="party-gifts">
+          <div className="party-items">
             <div className="party-info-image">
               <img
                 src={`http://drive.google.com/uc?export=view&id=1umakiREd_X1i39sYFd3i0DDI4Y3F4-ko`}
