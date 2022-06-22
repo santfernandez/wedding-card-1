@@ -25,13 +25,11 @@
     }
 
     .rectangle-background {
-        margin: 100px 0px 50px 0;
-        padding: 15px;
+        padding: 20px 0px 50px 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: rgba(249, 245, 239, 0.65);
         min-height: 30vh;
         min-width: 30vw;
         border-radius: 20px;
