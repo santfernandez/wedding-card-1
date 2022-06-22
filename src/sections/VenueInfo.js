@@ -8,7 +8,7 @@ const VenueInfo = () => {
         <div className="ceremony">
           <div className="venue-info-image">
             <img
-              src={`http://drive.google.com/uc?export=view&id=1Kui86K3SDVdmlE710qPeHJqxKwYQC3Ua`}
+              src={`http://drive.google.com/uc?export=view&id=10NglwLY36k_WZ7REXDf-RJSRyetzAc_Z`}
             />
           </div>
           <div className="venue-info-content">
@@ -16,19 +16,19 @@ const VenueInfo = () => {
               <h2>Ceremonia</h2>
             </div>
             <div className="venue-info-day">
-              <h4>Día</h4>
+              <h4 className="venue-info-list-title">Día</h4>
               <p>7 de mayo de 2022</p>
             </div>
             <div className="venue-info-hour">
-              <h4>Hora</h4>
+              <h4 className="venue-info-list-title">Hora</h4>
               <p>12 pm</p>
             </div>
             <div className="venue-info-venue">
-              <h4>Lugar</h4>
+              <h4 className="venue-info-list-title">Lugar</h4>
               <p>Parroquia Cristo Rey</p>
             </div>
             <div className="venue-info-address">
-              <h4>Dirección</h4>
+              <h4 className="venue-info-list-title">Dirección</h4>
               <p>Av. Mate de luna 3906, SM de Tucumán</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const VenueInfo = () => {
         <div className="party">
           <div className="venue-info-image">
             <img
-              src={`http://drive.google.com/uc?export=view&id=1MX-9KCmVHxwVosJnD30OVFlD3CpvqDXF`}
+              src={`http://drive.google.com/uc?export=view&id=1dHgwvmbBYuojeYkqW5C41CyDZRYvVaJh`}
             />
           </div>
           <div className="venue-info-content">
@@ -55,19 +55,19 @@ const VenueInfo = () => {
               <h2>Celebración</h2>
             </div>
             <div className="venue-info-day">
-              <h4>Día</h4>
+              <h4 className="venue-info-list-title">Día</h4>
               <p>7 de mayo de 2022</p>
             </div>
             <div className="venue-info-hour">
-              <h4>Hora</h4>
+              <h4 className="venue-info-list-title">Hora</h4>
               <p>1 pm</p>
             </div>
             <div className="venue-info-venue">
-              <h4>Lugar</h4>
+              <h4 className="venue-info-list-title">Lugar</h4>
               <p>La Finca Eventos</p>
             </div>
             <div className="venue-info-addres">
-              <h4>Dirección</h4>
+              <h4 className="venue-info-list-title">Dirección</h4>
               <p>Maipú 1850, Tafí Viejo</p>
             </div>
           </div>

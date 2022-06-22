@@ -2,17 +2,14 @@
 
 @media (min-width: 600px) {
     .venue-info {
-        background-image: url("http://drive.google.com/uc?export=view&id=1vrVcgIxFIhUW3z3y-uD8Y8zNMXFzPHJC");
-        background-repeat: no-repeat;
-        background-size: 20vw;
-        background-position: right;
+        background-color: #FFDFCD;
         font-family: 'Encode Sans Condensed', sans-serif;
-        min-height: 10vh;
+        min-height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 70px 0;
+        padding: 80px 0 80px 0;
     }
 
     .venue-info-row-a {
@@ -40,19 +37,14 @@
 
     .venue-info-content {
         line-height: 1.5em;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .venue-info-event>h2 {
         font-family: 'Galada', cursive;
         font-size: 2em;
         color: #2A4671;
-    }
-
-    .rsvp {
-        display: flex;
-        order: 3;
-        padding-top: 100px;
+        padding-top: 16px;
     }
 
     .venue-info-button {
@@ -65,7 +57,7 @@
         background-color: #4E5975;
         border-radius: 50px;
         color: black;
-        padding: 0.6em 0.4em;
+        padding: 0.5em 0.5em;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -77,26 +69,14 @@
         cursor: pointer;
     }
 
-    .rsvp>button {
-        background-color: #f6ce97;
-        border-radius: 50px;
-        color: black;
-        padding: 0.5em 0.4em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2.7em;
-        font-family: 'Galada', cursive;
-        width: 50vw;
+    .venue-info-list-title {
         font-weight: bold;
-        border-style: none;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        cursor: pointer;
+        padding: 8px 0 0 0;
     }
 
     .venue-info-image>img {
         height: auto;
-        max-width: 20vw;
+        max-width: 13vw !important;
     }
 
     .venue-info-button>button>a:link,
@@ -112,10 +92,7 @@
 
 @media (max-width: 600px) {
     .venue-info {
-        background-image: url("http://drive.google.com/uc?export=view&id=1vrVcgIxFIhUW3z3y-uD8Y8zNMXFzPHJC");
-        background-repeat: no-repeat;
-        background-size: 50vw;
-        background-position: right;
+
         background-color: #FFDFCD;
         font-family: 'Encode Sans Condensed', sans-serif;
         min-height: 50vh;
