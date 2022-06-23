@@ -3,14 +3,14 @@
 @media (min-width: 600px) {
     .about-us {
         padding: 20px 0 20px 0;
-        background-color: #FFDFCD;
+        background-color: #FFEADE;
     }
 
     .about-us-title {
         color: #2A4671;
         font-family: 'Denk One', sans-serif;
-        font-size: 2em;
-        padding: 10px 0px 20px 32px;
+        font-size: 4em;
+        padding: 10px 0px 20px 64px;
         text-align: left;
     }
 
@@ -43,7 +43,7 @@
 @media (max-width: 600px) {
     .about-us {
         padding: 20px 0 20px 0;
-        background-color: #FFDFCD;
+        background-color: #FFEADE;
     }
 
     .about-us-title {

@@ -7,6 +7,7 @@ import RSVP from "./sections/RSVP";
 import AboutUs from "./sections/AboutUs";
 import PartyInfo from "./sections/PartyInfo";
 import Instagram from "./sections/Instagram";
+import Greetings from "./sections/Greetings";
 import Footer from "./sections/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <AboutUs />
       <PartyInfo />
       <Instagram />
+      <Greetings />
       <Footer />
     </div>
   );

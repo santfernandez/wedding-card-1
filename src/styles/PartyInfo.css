@@ -4,22 +4,12 @@
 
 @media (min-width: 600px) {
     .party-info {
-        background-image: url("http://drive.google.com/uc?export=view&id=1hbs2Os0afN3kosR0-GyguNGVSpP6bpdl");
-        background-repeat: no-repeat;
-        background-size: 50vw;
-        background-position: left;
-        background-color: #FFE2CD;
-        font-family: 'Denk One', sans-serif;
+        background-color: #FFEADE;
+        font-family: 'Galada', cursive;
         min-height: 50vh;
         display: flex;
         flex-direction: column;
-        padding: 70px 0;
-    }
-
-    .party-info-title {
-        margin: 0px;
-        padding-bottom: 50px;
-        color: #2A4671;
+        padding: 80px 0 60px 0;
     }
 
     .party-info-b {
@@ -30,17 +20,20 @@
     }
 
     .party-info-title {
-        font-family: 'Galada', cursive;
+        margin: 0px;
+        padding-bottom: 50px;
+        color: #2A4671;
+        font-family: 'Denk One', sans-serif;
         font-size: 4.5em;
         order: 1;
     }
 
     .party-info-subtitle {
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Galada', cursive;
         font-weight: 300;
-        font-size: 3em;
+        font-size: 2.5em;
         margin: 0px;
-        padding: 20px;
+        padding: 20px 0 0 0;
         color: #2A4671;
     }
 
@@ -60,7 +53,7 @@
 
     .party-info-image>img {
         height: auto;
-        max-width: 10vw;
+        max-width: 8vw;
     }
 
     .party-info-b>div>div {
@@ -79,13 +72,13 @@
         font-family: 'Encode Sans Condensed', sans-serif;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 1.2em;
         width: 100%;
+        padding: 0.5em 0.5em;
         font-weight: bold;
         border-style: none;
         cursor: pointer;
-        min-height: 10vh;
+        min-height: 4vh;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
@@ -96,7 +89,7 @@
         background-image: url("http://drive.google.com/uc?export=view&id=1hbs2Os0afN3kosR0-GyguNGVSpP6bpdl");
         background-repeat: no-repeat;
         background-size: 30vw;
-        background-color: #FFE2CD;
+        background-color: #FFEADE;
         font-family: 'Galada', cursive;
         min-height: 50vh;
         display: flex;

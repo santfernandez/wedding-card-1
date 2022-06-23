@@ -11,10 +11,9 @@
 @media (min-width: 600px) {
 
     .home {
-        background-image: url("https://drive.google.com/uc?export=view&id=1Z5ERq9IyFtww_cKvXTwYj7xY54Nebon4");
+        background-image: url("https://drive.google.com/uc?export=view&id=1R65L_VuEnFifJY0YzxxHHPEVeoVDlTdR");
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -30,7 +29,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 30vh;
         min-width: 30vw;
         border-radius: 20px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -50,11 +48,12 @@
 
     .home-content-a {
         display: flex;
+        min-height: 40vh;
     }
 
     .home-content-b {
         display: flex;
-
+        min-height: 40vh;
     }
 
     .home-content-c {
@@ -106,32 +105,26 @@
 
     }
 
-    .home-phrase {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .home-phrase-text {
-        width: 20vw;
-        font-size: 4em;
-        transform: rotate(5deg);
-    }
-
-    .home-phrase-text>path {
-        fill: transparent;
-    }
-
-    .home-phrase-text>text {
         font-family: 'Galada', cursive;
-        fill: #2A4671;
+        color: #2A4671;
+        font-size: 2em;
+        transform: rotate(5deg);
+        margin-top: 8px;
     }
+
 
     .home-date {
         font-family: 'Denk One', sans-serif;
         font-size: 1.5em;
         text-shadow: none;
         color: #2A4671;
+    }
+
+    .home-title {
+        display: flex;
+        gap: 8px;
     }
 
     .home-title>h2 {
@@ -144,7 +137,7 @@
 
     .middle-title {
         margin: 0px;
-        padding-top: 10px;
+        padding-top: 50px;
         font-size: 4em;
         color: #444C68;
         font-family: 'Gentium Book Basic', serif;
@@ -156,7 +149,8 @@
 
 @media (max-width: 600px) {
     .home {
-        background-image: url("https://drive.google.com/uc?export=view&id=1Z5ERq9IyFtww_cKvXTwYj7xY54Nebon4");
+        background-image: url("https://drive.google.com/uc?export=view&id=1Wd4XKLOw9F0dLfXc7FSTncQu67xLPE7m");
+        background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -192,11 +186,10 @@
     }
 
     .home-content-b {
-        padding: 0 0 60px 0;
+        padding: 100px 16px 60px 16px;
     }
 
     .home-content-c {
-        padding: 100px 0 0 0;
         display: flex;
         flex-direction: column;
     }
@@ -218,20 +211,16 @@
         justify-content: center;
     }
 
+
+
     .home-phrase-text {
-        width: 50vw;
-        font-size: 4em;
-        transform: rotate(5deg);
-    }
-
-    .home-phrase-text>path {
-        fill: transparent;
-    }
-
-    .home-phrase-text>text {
         font-family: 'Galada', cursive;
-        fill: #2A4671;
+        color: #2A4671;
+        font-size: 2em;
+        transform: rotate(5deg);
+        margin-top: 8px;
     }
+
 
     .home-icon {
         height: auto;

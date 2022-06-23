@@ -3,16 +3,24 @@
 
 @media (min-width: 600px) {
 
+    .instagram-section {
+        background-image: url("https://drive.google.com/uc?export=view&id=1JNTnRRrHIGtfIb0eXm_PvqJ9mJMRJS8c");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 32px 0px;
+    }
+
     .instagram-section-phrase>p {
         font-family: 'Galada', cursive;
         font-weight: bold;
         font-size: 3em;
-        color: #2A4671;
+        color: #000;
+        padding-bottom: 32px;
     }
 
     .instagram-section-hashtag {
         font-family: 'Denk One', sans-serif;
-        font-size: 3em;
+        font-size: 4em;
     }
 
     .instagram-section-image>img {
@@ -22,17 +30,17 @@
 
     .instagram-section-hashtag>p {
         margin-top: 0;
+        color: #2A4671;
     }
 
     .instagram-section-button {
-        background-color: #f6ce97;
+        background-color: #4E5975;
         border-radius: 50px;
         color: black;
         padding: 0.2em 0em;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
-        font-size: 3em;
+        font-size: 2em;
         min-width: 50vw;
         font-family: 'Encode Sans Condensed', sans-serif;
         font-weight: bold;

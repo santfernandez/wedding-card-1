@@ -2,7 +2,7 @@
 
 @media (min-width: 600px) {
     .venue-info {
-        background-color: #FFDFCD;
+        background-color: #FFEADE;
         font-family: 'Encode Sans Condensed', sans-serif;
         min-height: 50vh;
         display: flex;
@@ -92,8 +92,7 @@
 
 @media (max-width: 600px) {
     .venue-info {
-
-        background-color: #FFDFCD;
+        background-color: #FFEADE;
         font-family: 'Encode Sans Condensed', sans-serif;
         min-height: 50vh;
         display: flex;
