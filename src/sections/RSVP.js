@@ -7,7 +7,7 @@ const RSVP = () => {
       <div className="rsvp">
         <h2 className="rsvp-title">Asistencia</h2>
         <p className="rsvp-info">Confirmar antes del 30 julio</p>
-        <button type="rsvp-button">
+        <button type="button" className="rsvp-button">
           <a
             target="_blank"
             rel="noreferrer"
