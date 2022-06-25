@@ -18,23 +18,23 @@ export default function GiftModal({ open, onClose }) {
             alt="bored kid laying on the floor"
           />
           <div className="gift-modal-titles">
-            <h1>¡Su presencia es nuestro mejor regalo!</h1>
+            <h1>¡Tu presencia es nuestro mejor regalo!</h1>
             <h2>Pero si queres hacernos un detalle, esta es nuetra cuenta:</h2>
           </div>
           <div className="gift-modal-all-info">
             <div className="gift-modal-info-container">
               <p className="gift-modal-info">
-                Brubank- caja de ahorro en pesos
+                BBVA Banco Francés- caja de ahorro en pesos
               </p>
             </div>
             <div className="gift-modal-info-container">
-              <p className="gift-modal-info">Alias: casamiento-luytano</p>
+              <p className="gift-modal-info">Alias: </p>
             </div>
             <div className="gift-modal-info-container">
-              <p className="gift-modal-info">CBU: 14300017 - 13016281680013</p>
+              <p className="gift-modal-info">CBU:3</p>
             </div>
             <div className="gift-modal-info-container">
-              <p className="gift-modal-info">Nro de cuenta: 1301628168001</p>
+              <p className="gift-modal-info">Nro de cuenta:</p>
             </div>
           </div>
           <h2 className="gift-modal-greetings">¡Muchas gracias!</h2>

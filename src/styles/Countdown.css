@@ -81,7 +81,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 8px;
+        gap: 16px;
     }
 
 
@@ -90,7 +90,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 8px
+        gap: 16px
     }
 
     .countdown-container-row-b {
@@ -98,7 +98,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 8px
+        gap: 16px
     }
 
     .number-container {
@@ -110,12 +110,12 @@
         flex-direction: column;
         justify-content: center;
         font-family: 'Encode Sans Condensed', sans-serif;
-        padding: 0.3em 0.3em;
-        font-size: 1em;
-        width: 15vw;
-        height: 18vh;
+        padding: 0.2em 0.2em;
+        font-size: 1.2em;
+        width: 20vw;
+        height: 15vh;
         font-weight: bold;
-        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.25);
+        box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.25);
     }
 
     .number-container>p {

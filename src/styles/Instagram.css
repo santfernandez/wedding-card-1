@@ -4,7 +4,7 @@
 @media (min-width: 600px) {
 
     .instagram-section {
-        background-image: url("https://drive.google.com/uc?export=view&id=1JNTnRRrHIGtfIb0eXm_PvqJ9mJMRJS8c");
+        background-image: url("https://drive.google.com/uc?export=view&id=12hV2DMm1JqUfXtZcdYbn3deZ-n6WUUMG");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 32px 0px;
@@ -63,7 +63,7 @@
 @media (max-width: 600px) {
 
     .instagram-section {
-        background-image: url("https://drive.google.com/uc?export=view&id=1JNTnRRrHIGtfIb0eXm_PvqJ9mJMRJS8c");
+        background-image: url("https://drive.google.com/uc?export=view&id=12hV2DMm1JqUfXtZcdYbn3deZ-n6WUUMG");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 32px 0px;
@@ -72,9 +72,9 @@
     .instagram-section-phrase>p {
         font-family: 'Galada', cursive;
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin: 0px;
-        padding: 20px0px;
+        padding-bottom: 30px;
         color: #000;
     }
 
@@ -83,29 +83,26 @@
         max-width: 20vw;
     }
 
-    .party-dresscode {
-        width: 30vw;
-    }
-
     .instagram-section-hashtag {
         font-family: 'Denk One', sans-serif;
-        font-size: 2em;
+        font-size: 2.3em;
+        padding-top: 16px;
     }
 
     .instagram-section-hashtag>p {
         margin-top: 0;
-        color: #2A4671;
+        color: #19273e;
+        margin-bottom: 1rem;
     }
 
     .instagram-section-button {
         background-color: #4E5975;
         border-radius: 50px;
-        color: black;
         padding: 0.5em 0.4em;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 1.5em;
+        font-size: 1em;
         min-width: 60vw;
         font-family: 'Encode Sans Condensed', sans-serif;
         font-weight: bold;
@@ -119,7 +116,7 @@
 
     .instagram-link:link,
     .instagram-link:visited {
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
 

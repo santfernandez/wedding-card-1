@@ -4,15 +4,14 @@ import "../styles/Instagram.css";
 const Instagram = () => {
   return (
     <div className="instagram-section">
-      <div className="instagram-section-hashtag">
-        <p>#SolYMati</p>
-      </div>
       <div className="instagram-section-image">
         <img
-          src={`http://drive.google.com/uc?export=view&id=1AfGpzF0VtEV0tvRHoVYgYu_EhIys9iWH`}
+          src={`http://drive.google.com/uc?export=view&id=1YnO08SvE8b7GFODyXPAyehslFudQop_9`}
         />
       </div>
-
+      <div className="instagram-section-hashtag">
+        <p>#SolYMatu</p>
+      </div>
       <div className="instagram-section-phrase">
         <p>Compartí la experiencia usando el hashtag</p>
       </div>
@@ -20,7 +19,7 @@ const Instagram = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.instagram.com/explore/tags/luytano/?hl=es"
+          href="https://www.instagram.com/explore/tags/joacoysofi/?hl=es"
           className="instagram-link"
         >
           <p>Ver en Instagram</p>
