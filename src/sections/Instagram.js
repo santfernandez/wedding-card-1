@@ -19,7 +19,7 @@ const Instagram = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.instagram.com/explore/tags/joacoysofi/?hl=es"
+          href="https://www.instagram.com/"
           className="instagram-link"
         >
           <p>Ver en Instagram</p>

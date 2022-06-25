@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "../styles/RSVP.css";
-import RSVPModal from "../components/RSVPModal";
 
 const RSVP = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="rsvp-container">
       <div className="rsvp">
@@ -14,8 +12,9 @@ const RSVP = () => {
             target="_blank"
             rel="noreferrer"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfBsJ9zCOEgW-dCjGXtaWwsoYTkPw1UZbe3Uay7L00ZkTFhiw/viewform"
-          ></a>
-          Confirmar
+          >
+            Confirmar
+          </a>
         </button>
       </div>
     </div>
