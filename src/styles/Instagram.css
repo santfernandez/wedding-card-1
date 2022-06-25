@@ -25,12 +25,18 @@
 
     .instagram-section-image>img {
         height: auto;
-        max-width: 15vw;
+        max-width: 10vw;
     }
 
     .instagram-section-hashtag>p {
-        margin-top: 0;
-        color: #2A4671;
+        margin: 0;
+        color: #19273e;
+    }
+
+    .instagram-section-phrase>p {
+        margin: 0;
+        padding-top: 16px;
+        color: #000;
     }
 
     .instagram-section-button {
@@ -54,7 +60,7 @@
 
     .instagram-link:link,
     .instagram-link:visited {
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
 

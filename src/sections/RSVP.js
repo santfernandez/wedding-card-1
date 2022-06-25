@@ -9,10 +9,14 @@ const RSVP = () => {
       <div className="rsvp">
         <h2 className="rsvp-title">Asistencia</h2>
         <p className="rsvp-info">Confirmar antes del 30 julio</p>
-        <button type="button" onClick={() => setIsOpen(true)}>
+        <button type="button">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfBsJ9zCOEgW-dCjGXtaWwsoYTkPw1UZbe3Uay7L00ZkTFhiw/viewform"
+          ></a>
           Confirmar
         </button>
-        <RSVPModal open={isOpen} onClose={() => setIsOpen(false)}></RSVPModal>
       </div>
     </div>
   );

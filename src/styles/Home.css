@@ -11,7 +11,7 @@
 @media (min-width: 600px) {
 
     .home {
-        background-image: url("https://drive.google.com/uc?export=view&id=1R65L_VuEnFifJY0YzxxHHPEVeoVDlTdR");
+        background-image: url("https://drive.google.com/uc?export=view&id=1Wd4XKLOw9F0dLfXc7FSTncQu67xLPE7m");
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -48,12 +48,12 @@
 
     .home-content-a {
         display: flex;
-        min-height: 40vh;
+        min-height: 30vh;
     }
 
     .home-content-b {
         display: flex;
-        min-height: 40vh;
+        min-height: 30vh;
     }
 
     .home-content-c {
@@ -110,7 +110,6 @@
         font-family: 'Galada', cursive;
         color: #2A4671;
         font-size: 2em;
-        transform: rotate(5deg);
         margin-top: 8px;
     }
 

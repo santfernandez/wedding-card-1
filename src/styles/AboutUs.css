@@ -16,27 +16,21 @@
 
     .about-us-images-container {
         display: flex;
-        flex-direction: column;
-    }
-
-    .about-us-images-row-a {
-        display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        order: 1;
-    }
-
-    .about-us-images-row-b {
-        display: flex;
-        flex-direction: row;
-        order: 1;
-        justify-content: space-evenly;
+        justify-content: center;
+        padding: 0 16px;
     }
 
     .about-us-image {
         height: auto;
-        max-width: 45vw;
+        max-width: 22vw;
         padding: 8px;
+        transform: scale(1);
+        transition: .3s ease-in-out;
+    }
+
+    .about-us-image:hover {
+        transform: scale(1.05);
     }
 }
 
