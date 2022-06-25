@@ -9,21 +9,21 @@ const AboutUs = () => {
         <div className="about-us-images-row-a">
           <img
             className="about-us-image"
-            src={`http://drive.google.com/uc?export=view&id=1LEiHDydZutzE3fhKjY80TUQgPTKNCepM`}
+            src={`https://drive.google.com/uc?export=view&id=1LEiHDydZutzE3fhKjY80TUQgPTKNCepM`}
           />
           <img
             className="about-us-image"
-            src={`http://drive.google.com/uc?export=view&id=1DgRbFor20OiaaLNgkaTusVbAQErZ_jMX`}
+            src={`https://drive.google.com/uc?export=view&id=1DgRbFor20OiaaLNgkaTusVbAQErZ_jMX`}
           />
         </div>
         <div className="about-us-images-row-b">
           <img
             className="about-us-image"
-            src={`http://drive.google.com/uc?export=view&id=1zhelvu5I9EZB9e-kWk4cgV1ZytzYuLRT`}
+            src={`https://drive.google.com/uc?export=view&id=1zhelvu5I9EZB9e-kWk4cgV1ZytzYuLRT`}
           />
           <img
             className="about-us-image"
-            src={`http://drive.google.com/uc?export=view&id=1SNihb9dKo34PayexaSqiHLGymA-HYn0T`}
+            src={`https://drive.google.com/uc?export=view&id=1SNihb9dKo34PayexaSqiHLGymA-HYn0T`}
           />
         </div>
       </div>

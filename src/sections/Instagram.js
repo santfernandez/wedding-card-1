@@ -6,7 +6,7 @@ const Instagram = () => {
     <div className="instagram-section">
       <div className="instagram-section-image">
         <img
-          src={`http://drive.google.com/uc?export=view&id=1YnO08SvE8b7GFODyXPAyehslFudQop_9`}
+          src={`https://drive.google.com/uc?export=view&id=1YnO08SvE8b7GFODyXPAyehslFudQop_9`}
         />
       </div>
       <div className="instagram-section-hashtag">
